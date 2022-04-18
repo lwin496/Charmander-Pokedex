@@ -17,16 +17,18 @@ body{
       background: rgb(255,85,0);
       background: linear-gradient(124deg, rgba(255,85,0,1) 0%, rgba(255,190,38,1) 87%);
       height: 100vh;
+      width: 100vw;
 
       img {
-        position: relative;
         width: 20rem;
         height: 20rem;
-        left: 14rem;
-        margin: 5rem;
       }
 }
 
+.container{ 
+  display: flex;
+  justify-content: space-around;
+}
 
 
 .header{ 

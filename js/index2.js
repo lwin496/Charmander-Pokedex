@@ -93,7 +93,7 @@ let charizardweight = charizard.weight
 document.getElementById("charizardWeight").innerHTML = 'Weight: ' + charizardweight
 
 // charizard Type 
-let charizardType = charizard.types[0].type.name + ':' + charizard.types[1].type.name
+let charizardType = charizard.types[0].type.name + ' and ' + charizard.types[1].type.name
 document.getElementById("charizardType").innerHTML = 'Type: ' + charizardType
 // charizard stats
 let charizardHp = charizard.stats[0].stat.name + ': ' + charizard.stats[0].base_stat

@@ -37,7 +37,7 @@ body {
   background-color: #F4B185;
 }
 
-#name {
+#charmander {
   color: whitesmoke;
   text-shadow: 2px 2px 2px #F4B185;
   font-family: mainPokeFont;
@@ -85,7 +85,7 @@ body {
   width: 15rem;
   border: none;
   height: .5rem;
-  background-color: white;
+  background-color: whitesmoke;
   box-shadow: 1px 1px 1px black;
 }
 
@@ -106,7 +106,7 @@ body {
   width: 20rem;
   border: none;
   height: .5rem;
-  background-color: white;
+  background-color: whitesmoke;
   box-shadow: 1px 1px 1px black;
 }
 
@@ -131,7 +131,7 @@ body {
   width: 25rem;
   border: none;
   height: .5rem;
-  background-color: white;
+  background-color: whitesmoke;
   box-shadow: 1px 1px 1px black;
 }
 

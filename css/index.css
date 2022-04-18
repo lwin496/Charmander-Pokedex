@@ -17,14 +17,17 @@ body {
   background: #ff5500;
   background: linear-gradient(124deg, #ff5500 0%, #ffbe26 87%);
   height: 100vh;
+  width: 100vw;
 }
 
 body img {
-  position: relative;
   width: 20rem;
   height: 20rem;
-  left: 14rem;
-  margin: 5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .header h1 {
