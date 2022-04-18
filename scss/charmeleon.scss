@@ -1,0 +1,173 @@
+@font-face {
+      font-family: mainPokeFont;
+      src: url('../fonts/MADE\ Soulmaze\ Italic\ PERSONAL\ USE.otf');
+  }
+  
+  @font-face {
+      font-family: subPokeFont;
+      src: url('../fonts/MADE\ Soulmaze\ Italic\ PERSONAL\ USE.otf');
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      &:visited{
+          color: black;
+      }
+  }
+  $maincolor: #F4B185; 
+  $subcolor: #FFE26F;
+  $bordercolor: whitesmoke;
+  
+  body {
+      // background: rgb(255,85,0);
+      // background: linear-gradient(124deg, rgba(255,85,0,1) 0%, rgba(255,190,38,1) 87%);
+      // height: 100vh; 
+      background-image: url('../images/background.png');
+  
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  // }
+  
+  .container{
+      position: relative;
+      top: 10vh;
+      margin: auto;
+      font-size: 3rem;
+      width: 30rem;
+      height: 40rem;
+      border: 5px solid  $bordercolor;
+      border-radius: 2rem;
+      background-color: $maincolor;
+   
+      
+  }
+  
+  #name{
+      color: whitesmoke;
+      text-shadow: 2px 2px 2px $maincolor;
+      font-family: mainPokeFont;
+      letter-spacing: 2px;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 2rem ;
+  
+  }
+  
+  
+  .subcontainer { 
+      background-color:$subcolor ;
+      border-radius: 1.6rem;
+      padding-bottom: 1rem;
+   
+  }
+  .subcontainerDivider { 
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    
+      
+  }
+  .physicalAttributes { 
+      color: whitesmoke;
+      text-shadow: 2px 2px 2px $maincolor;
+      font-family: subPokeFont;
+      font-size: 2rem;
+      margin-top: -2rem;
+      margin-right: 1rem;
+  }
+  .info-box{ 
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-family: subPokeFont;
+      margin-left: 2rem;
+  
+  }
+  .abilityheader{ 
+      color: whitesmoke;
+      text-shadow: 2px 2px 2px black;
+     
+  }
+  .abilityheader-underbar{ 
+      width: 15rem;
+      border: none;
+      height: .5rem;
+      background-color: white;
+      box-shadow: 1px 1px 1px black;
+  }
+  .abilites { 
+      display: flex;
+      gap: 1.5rem;
+      color: whitesmoke;
+      text-shadow: 2px 2px 2px black;
+  }
+  .statusbar-header{ 
+      color: whitesmoke;
+      text-shadow: 2px 2px 2px black;
+      margin-top: 2rem;
+  
+  }
+  .statusbar-underbar{ 
+      width: 20rem;
+      border: none;
+      height: .5rem;
+      background-color: white;
+      box-shadow: 1px 1px 1px black;
+      
+  }
+  #stat-bar{ 
+      margin-top: 0.5rem;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      font-size: .99rem;
+      color: whitesmoke;
+      text-shadow: 2px 2px 2px black;
+      
+  }
+  
+  
+  .specialHeader{ 
+      font-family: subPokeFont;
+      color: whitesmoke;
+      text-shadow: 2px 2px 2px black;
+      margin-top: 2rem;
+  
+  }
+  .specialbar{ 
+      width: 25rem;
+      border: none;
+      height: .5rem;
+      background-color: white;
+      box-shadow: 1px 1px 1px black;
+  }
+  .specialstats-bar{ 
+      display: flex;
+      justify-content: space-around;
+      color: whitesmoke;
+      text-shadow: 2px 2px 2px black; 
+      margin-top: .5rem;
+      
+  }
+  
+  
+  .back {
+  
+      width: 10rem;
+      height: 3rem;
+      border: 4px solid orange;
+      border-radius: 2rem;
+      background-color: whitesmoke;
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: 45vw;
+      top: 3vw;
+  }
+  
