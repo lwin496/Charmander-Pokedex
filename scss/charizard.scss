@@ -154,4 +154,22 @@
       margin-top: .5rem;
       
   }
+
+  .linkBack { 
+    font-family: subPokeFont;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    padding: 2rem;      
+    color: whitesmoke;
+    width: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: $maincolor;
+    border-radius: 1px solid $subcolor;
+    top: 0rem;
+    border-radius: 0px 0px 50%;
+    transform: translateY(-13%);
+}
   

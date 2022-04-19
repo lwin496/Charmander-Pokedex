@@ -2,17 +2,14 @@
   font-family: mainPokeFont;
   src: url("../fonts/MADE Soulmaze Italic PERSONAL USE.otf");
 }
-
 @font-face {
   font-family: subPokeFont;
   src: url("../fonts/MADE Soulmaze Italic PERSONAL USE.otf");
 }
-
 * {
   margin: 0;
   padding: 0;
 }
-
 *:visited {
   color: black;
 }
@@ -84,7 +81,7 @@ body {
 .abilityheader-underbar {
   width: 15rem;
   border: none;
-  height: .5rem;
+  height: 0.5rem;
   background-color: whitesmoke;
   box-shadow: 1px 1px 1px black;
 }
@@ -105,7 +102,7 @@ body {
 .statusbar-underbar {
   width: 20rem;
   border: none;
-  height: .5rem;
+  height: 0.5rem;
   background-color: whitesmoke;
   box-shadow: 1px 1px 1px black;
 }
@@ -115,7 +112,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  font-size: .99rem;
+  font-size: 0.99rem;
   color: whitesmoke;
   text-shadow: 2px 2px 2px black;
 }
@@ -130,7 +127,7 @@ body {
 .specialbar {
   width: 25rem;
   border: none;
-  height: .5rem;
+  height: 0.5rem;
   background-color: whitesmoke;
   box-shadow: 1px 1px 1px black;
 }
@@ -140,21 +137,23 @@ body {
   justify-content: space-around;
   color: whitesmoke;
   text-shadow: 2px 2px 2px black;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
-.back {
-  width: 10rem;
-  height: 3rem;
-  border: 4px solid orange;
-  border-radius: 2rem;
-  background-color: whitesmoke;
+.linkBack {
+  font-family: subPokeFont;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+  padding: 2rem;
+  color: whitesmoke;
+  width: 3rem;
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: relative;
-  left: 45vw;
-  top: 3vw;
-}
-/*# sourceMappingURL=charmeleon.css.map */
+  position: absolute;
+  background-color: #F4B185;
+  border-radius: 1px solid #FFE26F;
+  top: 0rem;
+  border-radius: 0px 0px 50%;
+  transform: translateY(-13%);
+}/*# sourceMappingURL=charmeleon.css.map */
